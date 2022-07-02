@@ -8,4 +8,11 @@ public class archivo2 {
     public archivo2(){
 
     }
+
+    public archivo2(int E, String N, String A, double S){
+        this.Edad = E;
+        this.Nombre = N;
+        this.Apellido = A;
+        this.Salario = S;
+    }
 }
